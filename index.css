@@ -1,2 +1,41 @@
-h1 {color:purple; text-align:center;}
-body {background-color: grey}
+h1 {color:#a50808; text-align:center;font-family:'Encode Sans Condensed', sans-serif, 'Times New Roman'; font-weight: bold}
+body {background-color: #fff4e2}
+p
+{text-align: center;}
+p
+{font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman'}
+ul
+#class ul.demo
+#container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#nav {
+    padding: 1px;
+	  list-style-type: none;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	  border-bottom: 1px solid #ccc;
+}
+
+#nav a:link, #nav a:visited {
+	  display:block;
+    color: white;
+    background-color: #a50808;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman';
+}
+
+#nav a:hover, #nav a:active {
+    background-color: #6d1d1d;
+}
+{font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman'}
+
+img {border: none}
