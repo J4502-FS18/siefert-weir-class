@@ -38,4 +38,7 @@ ul
 }
 {font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman'}
 
-img {border: none}
+img {
+  border: none;
+  padding: 4px;
+}
