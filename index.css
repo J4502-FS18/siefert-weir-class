@@ -38,6 +38,11 @@ ul
 }
 {font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman'}
 
+.center {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 img {
   border: none;
   padding: 4px;
