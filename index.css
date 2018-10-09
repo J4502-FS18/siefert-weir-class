@@ -1,9 +1,20 @@
-h1 {color:#a50808; text-align:center;font-family:'Encode Sans Condensed', sans-serif, 'Times New Roman'; font-weight: bold}
-body {background-color: #fff4e2}
-p
-{text-align: center;}
-p
-{font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman'}
+h1 {
+  color:#a50808;
+  text-align:center;
+  font-family:'Encode Sans Condensed', sans-serif, 'Times New Roman';
+  font-weight: bold
+}
+
+body {
+  background-color: #fff4e2
+}
+
+p {
+  text-align: center;
+  font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman'
+}
+
+
 ul
 #class ul.demo
 #container{
@@ -36,14 +47,24 @@ ul
 #nav a:hover, #nav a:active {
     background-color: #6d1d1d;
 }
-{font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman'}
 
-.center {display: block;
+.center {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 img {
   border: none;
   padding: 4px;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+@media (min-width: 600px)
