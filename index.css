@@ -60,11 +60,16 @@ img {
   padding: 4px;
 }
 
+
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
 }
 
-@media (min-width: 600px)
+@media (min-width: 600px){
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+  }
+}
