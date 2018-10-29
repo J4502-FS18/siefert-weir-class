@@ -9,6 +9,10 @@ body {
   background-color: #fff4e2
 }
 
+footer {
+  text-align: center;
+}
+
 p {
   text-align: center;
   font-family: 'Encode Sans Condensed', sans-serif, 'Times New Roman'
@@ -17,17 +21,29 @@ p {
 
 ul
 #class ul.demo
-#container{
+#container {
     width: 95%;
     margin: 0 auto;
 }
 
-#nav {
-    padding: 1px;
-	  list-style-type: none;
-}
+@media screen and (min-width: 600px) {
+
+    #nav {
+        width: 80%;
+        list-style-type: none;
+    }
+
+@media screen and (min-width: 450px) {
+
+    nav ul {
+        flex-flow: row;
+        justify-content: space-between;
+      }
+
+    }
 
 #nav li {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 	  border-bottom: 1px solid #ccc;
@@ -72,4 +88,52 @@ img {
     justify-content: center;
     justify-content: space-around;
   }
+}
+
+
+
+.cards {
+  margin: 1 -10px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.cards li {
+  background-color: #a50808;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card1 {
+  grid-column: 1/3;
+  grid-row: 1
+}
+
+.card2 {
+  grid-column: 3;
+  grid-row: 1
+}
+
+.card3 {
+  grid-column:1;
+  grid-row:2/4;
+}
+
+.card4 {
+  grid-column: 2/4;
+  grid-row:2;
+}
+
+.card5 {
+  grid-column: 2/4;
+  grid-row:3;
+}
+
+.section1 {
+  grid-column: 1;
+  text-align: center;
 }
